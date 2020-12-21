@@ -1,0 +1,15 @@
+#!/bin/bash
+# edit and save this file to /usr/lib/systemd/system/clash.service
+[Unit]
+Description=clash
+After=network.target
+
+[Service]
+WorkingDirectory=/home/lhj/.config/clash
+ExecStart=/home/lhj/.config/clash/start-clash.sh
+ExecStop=/home/lhj/.config/clash/stop-clash.sh
+Environment="HOME=/home/lhj"
+Environment="CLASH_URL=your subscribe address"
+
+[Install]
+WantedBy=multi-user.target

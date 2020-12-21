@@ -10,6 +10,11 @@ export ZSH="/home/lhj/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 POWERLEVEL9K_MODE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ram load time)
+DEFAULT_USER="lhj"
+HIST_STAMPS="yyyy-mm-dd"
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -75,10 +80,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ram load time)
-POWERLEVEL9K_MODE='nerdfont-complete'
 
 DEFAULT_USER="lhj"
 HIST_STAMPS="yyyy-mm-dd"
