@@ -314,7 +314,9 @@ def save_config(path, data):
 # 程序入口
 if __name__ == '__main__':
     # 订阅地址 多个地址用;隔开
-    sub_url = 'http://ovo.dy.cdn.llsmall.com/api/v1/client/subscribe?token=7aa59e38318b19661cdcf548fb0c6a9d'
+    sub_url = 'http://ovo.dy.cdn.llsmall.com/api/v1/client/subscribe?token=d6085368a226f2e547ffa614ee4c0979'
+    # 110 http://ovo.dy.cdn.llsmall.com/api/v1/client/subscribe?token=7aa59e38318b19661cdcf548fb0c6a9d
+    # 118 http://ovo.dy.cdn.llsmall.com/api/v1/client/subscribe?token=d6085368a226f2e547ffa614ee4c0979
     # 输出路径
     output_path = '/home/lhj/.config/clash/config.yaml'
     # 规则策略
